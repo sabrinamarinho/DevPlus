@@ -1,0 +1,62 @@
+.imgfundo{
+ 
+    z-index: -1;
+    width: 600px;
+ 
+    margin-left: 5%;
+  position: absolute;
+    opacity: 0.4;
+    animation: img 2s linear infinite alternate-reverse;
+    }
+    body{
+
+        background-image: linear-gradient(270deg, #3c3176 0, #1c1c51 50%, #03012e 100%);background-image: linear-gradient(270deg, #34296e 0, #1e1c56 50%, #080f3f 100%);background-image: linear-gradient(270deg, #2b2464 0, #1e1c56 50%, #111448 100%);
+        font-family: 'Prompt', sans-serif;
+    color: aliceblue;
+    }
+
+
+.txt1{
+    width: 500px;
+    height: 50px;
+    margin-top: 6%;
+    border-radius: 10px;
+    border: none;
+    font-size: 15pt;
+    transition: .2s;
+    padding: 15px;
+    outline: none;
+    box-sizing: border-box;
+    
+animation: 3s;
+}
+
+@keyframes img {
+    from  {
+top:150px;
+    }
+    to {
+top:200px;
+
+    }
+}
+.btn1
+{
+    position:absolute;
+    top: 650px;
+    border-radius: 10px;
+    left:1100px;
+    width: 250px;
+height: 70px;
+    
+    background-image: linear-gradient(270deg, #8a3e91 0, #622e76 25%, #3a1c56 50%, #170a36 75%, #00001c 100%);
+color: cornsilk;
+}
+
+.btn1:hover{
+
+    width: 300px;
+    height: 90px;
+    font-size: 20pt;
+
+}
