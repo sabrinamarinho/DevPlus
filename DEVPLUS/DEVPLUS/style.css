@@ -1,0 +1,89 @@
+body{
+
+    background-image: radial-gradient(circle at 20.32% 50%, #bd59f5 0, #9e4ef4 16.67%, #7844f3 33.33%, #3c3cf2 50%, #0037f1 66.67%, #0034ef 83.33%, #0034ee 100%);
+    color:aliceblue;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+
+.div1
+{
+
+
+}
+.div2{
+
+
+
+
+
+}
+
+.txtEmail{
+    width: 500px;
+    height: 70px;
+   
+    border-radius: 10px;
+    border: none;
+    font-size: 15pt;
+    transition: .2s;
+    padding: 15px;
+    outline: none;
+    box-sizing: border-box;
+    margin-left: 300px;
+}
+.txtEmail:focus{
+    width: 600px; 
+ 
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+.btnGo{
+    width: 150px;
+    height: 70px;
+    color: white;
+    border-radius: 20px;
+    transition: .3s;
+    margin-left: 2%;
+    border: none;
+   
+    background-image: linear-gradient(185deg, #ff80b8 0, #ff71bc 16.67%, #ff5bbb 33.33%, #f23cb5 50%, #d116b0 66.67%, #b400b0 83.33%, #9800b5 100%);
+}
+.btnGo:hover{
+ 
+    border: none;
+    color: #ff5bbb ;
+    width: 170px;
+    background-image: linear-gradient(0, #ff80b8 0, #ff71bc 16.67%, #ff5bbb 33.33%, #f23cb5 50%, #d116b0 66.67%, #b400b0 83.33%, #9800b5 100%);
+}
+
+.btnEnt{
+    width: 110px;
+    height: 70px;
+    color: white;
+    border-radius: 20px;
+    transition: .3s;
+    margin-top: 80px;
+    border: none;
+   
+    background-image: linear-gradient(185deg, #ff80b8 0, #ff71bc 16.67%, #ff5bbb 33.33%, #f23cb5 50%, #d116b0 66.67%, #b400b0 83.33%, #9800b5 100%);
+}
+.btnEnt:hover{
+ 
+    border: none;
+    color: #ff5bbb ;
+    width: 130px;
+    background-image: linear-gradient(0, #ff80b8 0, #ff71bc 16.67%, #ff5bbb 33.33%, #f23cb5 50%, #d116b0 66.67%, #b400b0 83.33%, #9800b5 100%);
+}
+
+
+.imgfundo{
+position: absolute;
+z-index: -1;
+width: 100%;
+height: 100%;
+opacity: 0.3;
+}
