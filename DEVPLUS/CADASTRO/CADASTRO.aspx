@@ -37,10 +37,10 @@
 
                 <label for="email">NOME:</label>
 
-                     <asp:TextBox runat="server" ID="nome"  name="nome" CssClass="txt1" placeholder="Insira seu nome"></asp:TextBox>
+                     <asp:TextBox runat="server" ID="txtnome"  name="nome" CssClass="txt1" placeholder="Insira seu nome"></asp:TextBox>
                      <br>
                      <label for="email">EMAIL:</label>
-                     <asp:TextBox runat="server" id="email" TextMode="email" name="email" CssClass="txt1" placeholder="Insira seu email"></asp:TextBox>
+                     <asp:TextBox runat="server" id="txtemail" TextMode="email" name="email" CssClass="txt1" placeholder="Insira seu email"></asp:TextBox>
               
                     <br>
                      <label for="pwd">SENHA:</label>
@@ -53,7 +53,7 @@
                   
                      <asp:TextBox runat="server" ID="Cpassword" TextMode="password" CssClass="txt1" name="pwdNv" placeholder="Insira sua senha novamente"></asp:TextBox>
                      <br>
-                <asp:Button runat="server" class="btn1" name="btn" text="CADASTRAR"></asp:Button>
+                <asp:Button ID="cadastrarbtn" runat="server" class="btn1" name="btn" text="CADASTRAR" OnClick="cadastrarbtn_Click"></asp:Button>
 
             </div>
         </div>

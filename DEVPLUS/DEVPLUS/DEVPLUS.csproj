@@ -187,6 +187,17 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="style.css" />
+    <Content Include="Tela de Exibição\arrow-left-free-icon-font %281%29.png" />
+    <Content Include="Tela de Exibição\DevLogo.png" />
+    <Content Include="Tela de Exibição\stylexib.css" />
+    <Content Include="Tela de Exibição\Tela de Exibição.aspx" />
+    <Content Include="Tela Interna\chamada-telefonica.png" />
+    <Content Include="Tela Interna\definicoes.png" />
+    <Content Include="Tela Interna\DevLogo.png" />
+    <Content Include="Tela Interna\do-utilizador.png" />
+    <Content Include="Tela Interna\search-free-icon-font %281%29.png" />
+    <Content Include="Tela Interna\style.css" />
+    <Content Include="Tela Interna\Tela Interna.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -241,6 +252,20 @@
     </Compile>
     <Compile Include="Site2.Master.designer.cs">
       <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Tela de Exibição\Tela de Exibição.aspx.cs">
+      <DependentUpon>Tela de Exibição.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tela de Exibição\Tela de Exibição.aspx.designer.cs">
+      <DependentUpon>Tela de Exibição.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tela Interna\Tela Interna.aspx.cs">
+      <DependentUpon>Tela Interna.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tela Interna\Tela Interna.aspx.designer.cs">
+      <DependentUpon>Tela Interna.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

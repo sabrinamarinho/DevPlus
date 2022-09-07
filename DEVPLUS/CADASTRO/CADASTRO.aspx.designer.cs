@@ -22,22 +22,22 @@ namespace DEVPLUS.CADASTRO {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Controle nome.
+        /// Controle txtnome.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox nome;
+        protected global::System.Web.UI.WebControls.TextBox txtnome;
         
         /// <summary>
-        /// Controle email.
+        /// Controle txtemail.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox email;
+        protected global::System.Web.UI.WebControls.TextBox txtemail;
         
         /// <summary>
         /// Controle password.
@@ -56,5 +56,14 @@ namespace DEVPLUS.CADASTRO {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Cpassword;
+        
+        /// <summary>
+        /// Controle cadastrarbtn.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button cadastrarbtn;
     }
 }

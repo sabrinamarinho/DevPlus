@@ -16,7 +16,7 @@ namespace DEVPLUS.HOME
 
         protected void Unnamed_Click(object sender, EventArgs e)
         {
-            Response.Redirect("/CADASTRO/CADASTRO.aspx");
+            Response.Redirect("/CADASTRO/CADASTRO.aspx?email="+ txtEmail.Text);
         }
 
         protected void Unnamed_Click1(object sender, EventArgs e)
