@@ -11,6 +11,13 @@ body{
     color: inherit;
   }
   
+  .imgtitle{
+    position: absolute;
+    margin-top: 15%;
+    left: 40%;
+    animation: logomov ;
+    animation-duration: 3s;
+  }
 
   
   .menu {
@@ -225,3 +232,16 @@ body{
 
     width: auto; 
 }
+
+
+@keyframes logomov{
+
+  0% {
+    margin-top: 60%;
+  }
+  100%{
+    margin-top: 15%;
+  }
+
+}
+
