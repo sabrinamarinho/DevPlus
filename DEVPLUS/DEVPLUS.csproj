@@ -187,8 +187,6 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="style.css" />
-    <Content Include="Upload\style.css" />
-    <Content Include="Upload\Upload.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -243,13 +241,6 @@
     </Compile>
     <Compile Include="Site2.Master.designer.cs">
       <DependentUpon>Site2.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Upload\Upload.aspx.cs">
-      <DependentUpon>Upload.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Upload\Upload.aspx.designer.cs">
-      <DependentUpon>Upload.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
