@@ -11,7 +11,6 @@ namespace DEVPLUS.CADASTRO
 {
     public partial class CADASTRO : System.Web.UI.Page
     {
-        public static string ConnectionString = "Server=127.0.0.1;User ID=root;Password=;Database=devplus";
         private MySqlConnection connection;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -35,7 +34,7 @@ namespace DEVPLUS.CADASTRO
 
         protected void cadastrarbtn_Click(object sender, EventArgs e)
         {
-            connection = new MySqlConnection(ConnectionString);
+            connection = new MySqlConnection(SiteMaster.ConnectionString);
 
             connection.Open();
 

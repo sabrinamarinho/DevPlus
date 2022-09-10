@@ -44,7 +44,7 @@ namespace DEVPLUS.LOGIN
             var reader = comando.ExecuteReader();
        
             connection.Close();
-            Response.Redirect("/HOME/HOME.aspx");
+            Response.Redirect("../Tela Interna/Tela Interna.aspx");
         }
     }
 }

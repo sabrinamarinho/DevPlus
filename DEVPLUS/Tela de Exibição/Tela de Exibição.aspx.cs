@@ -5,11 +5,10 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace DEVPLUS
+namespace DEVPLUS.Tela_de_Exibição
 {
-    public partial class SiteMaster : MasterPage
+    public partial class Tela_de_Exibição : System.Web.UI.Page
     {
-        public static string ConnectionString = "Server=127.0.0.1;User ID=root;Password=;Database=devplus";
         protected void Page_Load(object sender, EventArgs e)
         {
 
