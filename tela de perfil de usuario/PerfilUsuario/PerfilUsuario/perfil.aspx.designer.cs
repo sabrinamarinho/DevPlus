@@ -49,13 +49,13 @@ namespace PerfilUsuario {
         protected global::System.Web.UI.WebControls.TextBox txtsenha;
         
         /// <summary>
-        /// Controle btnAlterarCadastro.
+        /// Controle btnAlterar_Cadastro.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAlterarCadastro;
+        protected global::System.Web.UI.WebControls.Button btnAlterar_Cadastro;
         
         /// <summary>
         /// Controle btnAlterarSenha.
@@ -65,6 +65,24 @@ namespace PerfilUsuario {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnAlterarSenha;
+        
+        /// <summary>
+        /// Controle recad.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl recad;
+        
+        /// <summary>
+        /// Controle btnAle.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAle;
         
         /// <summary>
         /// Controle txtAlteraNomeUsuario.
@@ -92,6 +110,24 @@ namespace PerfilUsuario {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnAtualizarCadastro;
+        
+        /// <summary>
+        /// Controle recadsenha.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl recadsenha;
+        
+        /// <summary>
+        /// Controle Button1.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
         /// Controle txtSenhaAtual.

@@ -60,13 +60,11 @@
 
 
                     <div class="ex-busca cinco">
-                        <form action=" " method="post" onsubmit="return false">
                             <div class="busquinha-exemplo w100" style="position: absolute; left: 1090px; top: 40px;">
                                 <input class="inp1" type="search" id="busca5" name="q">
                                 <button class="btn1" type="submit" id="btn-busca">
                                     <img src="search-free-icon-font (1).png" /></button>
                             </div>
-                        </form>
                     </div>
 
                     <nav class="menu">
@@ -104,27 +102,28 @@
                     <asp:TextBox runat="server" ID="txtEmail" class="form-control form-control-lg" disabled="true"></asp:TextBox><br>
                     <label for="senha1" style="color: white">Senha:</label>
                     <asp:TextBox runat="server" ID="txtsenha" TextMode="Password" class="form-control form-control-lg" disabled="true"></asp:TextBox><br>
-                    <asp:button runat="server" ID="btnAlterarCadastro" class="btn btn-secondary" style="margin-left: 10%;" OnClick="btnAlterarCadastro_Click" Text="Alterar cadastro"></asp:button>
-                    <asp:Button runat="server" ID="btnAlterarSenha" OnClick="btnAlterarSenha_Click" class="btn btn-secondary" style="margin-left: 16%;" Text="Alterar senha"></asp:Button>
+                    <asp:Button runat="server" ID="btnAlterar_Cadastro" class="btn btn-secondary" OnClick="btnAlterar_Cadastro_Click" Text="Alterar Cadastro" />
+                    <asp:Button runat="server" ID="btnAlterarSenha" OnClick="btnAlterarSenha_Click" class="btn btn-secondary" style="margin-left: 16%;" Text="Alterar senha" />
+                    
                 </div>
             </div>
         </div>
-        <div class="recad">
+        <div runat="server" class="recad" id="recad" >
+            <asp:Button runat="server" style="margin-left:90%;margin-top:2%" ID="btnAle" OnClick="btnAle_Click" CssClass="btn btn-danger" Text="X" />
             <label for="name" style="color: white; margin-top: 7%; margin-left: 18%;">Nome:</label>
             <asp:TextBox runat="server" ID="txtAlteraNomeUsuario" class="form-control form-control-lg" style="width: 400px; margin-left: 17%"></asp:TextBox><br>
             <label for="e-mail" style="color: white; margin-left: 18%;">E-mail:</label>
             <asp:TextBox runat="server" ID="txtAlteraEmailUsuario" class="form-control form-control-lg" style="width: 400px; margin-left: 17%;"></asp:TextBox><br>
-            <br>
-            <asp:Button runat="server" ID="btnAtualizarCadastro" OnClick="btnAtualizarCadastro_Click" ext="Atualizar cadastro" class="btn btn-secondary" style="margin-left: 38%;"></asp:Button>
+            <asp:Button runat="server" ID="btnAtualizarCadastro" OnClick="btnAtualizarCadastro_Click" Text="Atualizar cadastro" class="btn btn-secondary" style="margin-left: 38%;"></asp:Button>
         </div>
-        <div class="recadsenha">
+        <div runat="server" id="recadsenha" class="recadsenha">
+            <asp:Button runat="server" style="margin-left:90%;margin-top:2%" ID="Button1" OnClick="btnAle_Click" CssClass="btn btn-danger" Text="X" />
             <label for="name" style="color: white; margin-top: 6%; margin-left: 18%;">Senha atual:</label>
             <asp:TextBox runat="server" ID="txtSenhaAtual" TextMode="Password" class="form-control form-control-lg" style="width: 400px; margin-left: 17%"></asp:TextBox><br>
             <label for="e-mail" style="color: white; margin-left: 18%;">Nova senha:</label>
             <asp:TextBox runat="server" ID="txtNovaSenha" TextMode="Password" class="form-control form-control-lg" style="width: 400px; margin-left: 17%;"></asp:TextBox><br>
             <label for="e-mail" style="color: white; margin-left: 18%;">Confirme sua senha:</label>
             <asp:TextBox runat="server" ID="txtConfirmarSenha" class="form-control form-control-lg" style="width: 400px; margin-left: 17%;"></asp:TextBox><br>
-            <br>
             <asp:Button runat="server" ID="btnAtualizarSenha" OnClick="btnAtualizarSenha_Click" Text="Atualizar senha" class="btn btn-secondary" style="margin-left: 38%;"></asp:Button>
         </div>
     </form>

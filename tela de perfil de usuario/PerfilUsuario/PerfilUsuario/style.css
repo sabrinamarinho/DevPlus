@@ -223,25 +223,10 @@ body{
 }
 
 .recad{
-width: 600px;
-height: 350px ;
-background-color:rgb(23, 23, 54);
-position: absolute;
-top: 329px;
-left: 500px;
-display: block;
-z-index: 2;
-border-radius: 4%;
+
+
 }
 .recadsenha{
   
-  width: 600px;
-  height: 440px ;
-  background-color:rgb(23, 23, 54);
-  position: absolute;
-  top: 330px;
-  left: 500px;
-  display: none;
-  z-index: 2;
-  border-radius: 4%;
+
   }
