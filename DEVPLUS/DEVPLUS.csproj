@@ -132,6 +132,24 @@
     <Content Include="CADASTRO\CADASTRO.aspx" />
     <Content Include="CADASTRO\DevLogo.png" />
     <Content Include="CADASTRO\Stylecad.css" />
+    <Content Include="Contato\caique.jpg" />
+    <Content Include="Contato\chamada-telefonica.png" />
+    <Content Include="Contato\circle-phone.png" />
+    <Content Include="Contato\definicoes.png" />
+    <Content Include="Contato\DevLogo.png" />
+    <Content Include="Contato\do-utilizador.png" />
+    <Content Include="Contato\envelope.png" />
+    <Content Include="Contato\estilo.css" />
+    <Content Include="Contato\facebook.png" />
+    <Content Include="Contato\fessor.jpeg" />
+    <Content Include="Contato\instagram.png" />
+    <Content Include="Contato\joao.jpg" />
+    <Content Include="Contato\kevin.jpg" />
+    <Content Include="Contato\luigi.jpg" />
+    <Content Include="Contato\pedro.jpg" />
+    <Content Include="Contato\sabrina.jpg" />
+    <Content Include="Contato\search-free-icon-font %281%29.png" />
+    <Content Include="Contato\Tela de Contato.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -239,6 +257,13 @@
     </Compile>
     <Compile Include="CADASTRO\CADASTRO.aspx.designer.cs">
       <DependentUpon>CADASTRO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contato\Tela de Contato.aspx.cs">
+      <DependentUpon>Tela de Contato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contato\Tela de Contato.aspx.designer.cs">
+      <DependentUpon>Tela de Contato.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
