@@ -18,6 +18,7 @@
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title></title>
+    
 </head>
 <body>
     <form id="form1" runat="server">
@@ -33,7 +34,7 @@
                 <a class="nav-link me-5" style="color :white; " href="javascript:void(0)">Video</a>
               </li>
               
-              <li class="nav-item">
+              <li class="nav-item" >
                 <a class="nav-link me-5"  style="color:white; " href="javascript:void(0)">Serie</a>
               </li>
              
@@ -43,13 +44,14 @@
 
 
               <div class="dropdown">
-                <asp:button runat="server" type="button" class="cate" data-bs-toggle="dropdown" Text=" Categorias ▼">
+                <asp:button runat="server" ID="drop_genero" OnClick="drop_genero_Click" type="button" class="cate" data-bs-toggle="dropdown" Text=" Categorias ▼">
                
                 </asp:button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Link 1</a></li>
-                  <li><a class="dropdown-item" href="#">Link 2</a></li>
-                  <li><a class="dropdown-item" href="#">Link 3</a></li>
+                  <li><a class="dropdown-item" href="#">banco-de-dados</a></li>
+                  <li><a class="dropdown-item" href="#">fron-end</a></li>
+                  <li><a class="dropdown-item" href="#">automacao</a></li>
+                  <li><a class="dropdown-item" href="#">back-end</a></li>
                 </ul>
                 </div>
             </ul>
@@ -73,6 +75,7 @@
     <span class="hamburger hamburger-3"></span>
   </label>
   
+   
   <a href="#" class="menu-item"><img src="definicoes.png" style="margin-top:-40%;"> </a>
   <a href="#" class="menu-item"> <img src="do-utilizador.png" style="margin-top:-40%;"></i> </a>
   <a href="#" class="menu-item"><img src="chamada-telefonica.png" style="margin-top:-40%;"> </i> </a>
@@ -80,7 +83,7 @@
 
 </nav>
 
-
+              
 <!-- filters -->
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
     <defs>

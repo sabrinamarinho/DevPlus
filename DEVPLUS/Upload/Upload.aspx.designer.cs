@@ -31,13 +31,13 @@ namespace DEVPLUS.Upload {
         protected global::System.Web.UI.HtmlControls.HtmlInputText txtTitulo;
         
         /// <summary>
-        /// Controle txtDesc.
+        /// Controle txtDescricao.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTextArea txtDesc;
+        protected global::System.Web.UI.WebControls.TextBox txtDescricao;
         
         /// <summary>
         /// Controle serieend.

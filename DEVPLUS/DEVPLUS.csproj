@@ -157,6 +157,8 @@
     <Content Include="LOGIN\DevLogo.png" />
     <Content Include="LOGIN\Login.aspx" />
     <Content Include="LOGIN\Logstyle.css" />
+    <Content Include="Pedro Gangster.jpg" />
+    <Content Include="Pedro Gangster.mp4" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -185,6 +187,17 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Serie\capa-programacao.jpg" />
+    <Content Include="Serie\chamada-telefonica.png" />
+    <Content Include="Serie\definicoes.png" />
+    <Content Include="Serie\DevLogo.png" />
+    <Content Include="Serie\do-utilizador.png" />
+    <Content Include="Serie\linguagem-de-programação.jpg" />
+    <Content Include="Serie\scriptt.js" />
+    <Content Include="Serie\search-free-icon-font %281%29.png" />
+    <Content Include="Serie\Serie.aspx" />
+    <Content Include="Serie\style.css" />
+    <Content Include="Serie\transferir.jpg" />
     <Content Include="Site.Master" />
     <Content Include="style.css" />
     <Content Include="Tela de Exibição\arrow-left-free-icon-font %281%29.png" />
@@ -200,6 +213,17 @@
     <Content Include="Tela Interna\Tela Interna.aspx" />
     <Content Include="Upload\style.css" />
     <Content Include="Upload\Upload.aspx" />
+    <Content Include="Video\capa-programacao.jpg" />
+    <Content Include="Video\chamada-telefonica.png" />
+    <Content Include="Video\definicoes.png" />
+    <Content Include="Video\DevLogo.png" />
+    <Content Include="Video\do-utilizador.png" />
+    <Content Include="Video\linguagem-de-programação.jpg" />
+    <Content Include="Video\scriptt.js" />
+    <Content Include="Video\search-free-icon-font %281%29.png" />
+    <Content Include="Video\style.css" />
+    <Content Include="Video\transferir.jpg" />
+    <Content Include="Video\Video.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -234,6 +258,13 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serie\Serie.aspx.cs">
+      <DependentUpon>Serie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Serie\Serie.aspx.designer.cs">
+      <DependentUpon>Serie.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -275,6 +306,13 @@
     </Compile>
     <Compile Include="Upload\Upload.aspx.designer.cs">
       <DependentUpon>Upload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Video\Video.aspx.cs">
+      <DependentUpon>Video.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Video\Video.aspx.designer.cs">
+      <DependentUpon>Video.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

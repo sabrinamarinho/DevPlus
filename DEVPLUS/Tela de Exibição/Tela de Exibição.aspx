@@ -13,13 +13,15 @@
     <form id="form1" runat="server">
      <a onclick="window.location='../Tela Interna/Tela Interna.aspx'"> <img src="arrow-left-free-icon-font (1).png" alt="" style="position: absolute;top: 5%;left: 5%;width: 70px;" ></a> 
     <div class="col-lg-6 text-center" style="margin-left: -5%;margin-top: 10%;">
-<h1 class="titulo">TITULO DO VIDEO</h1>
-<p class="descricao" >Aqui esta a descrição do video seu zé mané</p>
+<h1 runat="server" class="titulo" id="titulo_v" >TITULO DO VIDEO</h1>
+<p runat="server" style="width:300px;margin-left:30%" class="descricao" id="descricao_v" >Aqui esta a descrição do video seu zé mané</p>
 </div>
 
 <div class="col-lg-6">
     <video width="900px" height="700px" poster="DevLogo.png" style="position: absolute;top: 5%;left: 40%;" controls>
-      <source src="TESTE.mp4" type="video/mp4" >
+      <source runat="server" id="vidin" src="TESTE.mp4" type="video/mp4" />
+       
+      
     </video>
     </div>
 
