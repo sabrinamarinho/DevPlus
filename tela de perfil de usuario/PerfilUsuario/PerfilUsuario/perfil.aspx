@@ -100,8 +100,8 @@
                     <asp:TextBox runat="server" ID="txtNome" disabled="true " class="form-control form-control-lg"></asp:TextBox><br>
                     <label for="e-mail" style="color: white">E-mail:</label>
                     <asp:TextBox runat="server" ID="txtEmail" class="form-control form-control-lg" disabled="true"></asp:TextBox><br>
-                    <label for="senha1" style="color: white">Senha:</label>
-                    <asp:TextBox runat="server" ID="txtsenha" TextMode="Password" class="form-control form-control-lg" disabled="true"></asp:TextBox><br>
+                   
+                   <br>
                     <asp:Button runat="server" ID="btnAlterar_Cadastro" class="btn btn-secondary" OnClick="btnAlterar_Cadastro_Click" Text="Alterar Cadastro" />
                     <asp:Button runat="server" ID="btnAlterarSenha" OnClick="btnAlterarSenha_Click" class="btn btn-secondary" style="margin-left: 16%;" Text="Alterar senha" />
                     
