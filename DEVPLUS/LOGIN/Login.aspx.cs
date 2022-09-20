@@ -42,9 +42,17 @@ namespace DEVPLUS.LOGIN
             comando.Parameters.Add(new MySqlParameter("email", txtemail.Text));
             comando.Parameters.Add(new MySqlParameter("senha", txtpassword.Text));
             var reader = comando.ExecuteReader();
-       
+            if (reader.Read())
+            {
+                Response.Redirect("../Tela Interna/Tela Interna.aspx");
+
+            }
+            else
+            {
+                valida.InnerText = "Email ou senha incorreta !";
+            }
+
             connection.Close();
-            Response.Redirect("../Tela Interna/Tela Interna.aspx");
         }
     }
 }

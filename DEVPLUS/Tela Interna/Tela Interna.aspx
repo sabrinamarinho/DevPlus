@@ -44,7 +44,7 @@
 
 
               <div class="dropdown">
-                <asp:button runat="server" ID="drop_genero" OnClick="drop_genero_Click" type="button" class="cate" data-bs-toggle="dropdown" Text=" Categorias ▼">
+                <asp:button runat="server" ID="drop_genero"  type="button" class="cate" data-bs-toggle="dropdown" Text=" Categorias ▼">
                
                 </asp:button>
                 <ul class="dropdown-menu">

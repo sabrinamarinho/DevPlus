@@ -40,6 +40,15 @@ namespace DEVPLUS.LOGIN {
         protected global::System.Web.UI.WebControls.TextBox txtpassword;
         
         /// <summary>
+        /// Controle valida.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl valida;
+        
+        /// <summary>
         /// Controle btngo.
         /// </summary>
         /// <remarks>
