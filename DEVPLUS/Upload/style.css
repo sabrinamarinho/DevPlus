@@ -37,9 +37,15 @@ h1 {
 .listGen {
     width: 200px;
 }
+.vidin{
+    position:absolute;
+    top:500px;
+    left:900px;
+
+}
 
 .btnConcluir {
-   
+ 
     padding:10px 10px 10px 10px;
     margin-left:10%;
     margin-top:1%;
@@ -76,3 +82,18 @@ h1 {
         background-color: white;
         border: none;
     }
+
+.btnX {
+   
+    
+    margin-left: 10%;
+    margin-top: 1%;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    height: 100px;
+    border: none;
+    
+    border-radius: 10px;
+    font-size: 15pt;
+}
+}

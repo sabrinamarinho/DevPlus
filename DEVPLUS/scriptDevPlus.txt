@@ -1,0 +1,38 @@
+CREATE DATABESE devplus;
+USE devplus;
+
+
+
+CREATE TABLE usuario_(
+id int PRIMARY KEY AUTO_INCREMENT NOT NULL,
+email varchar(100) NOT NULL,
+senha varchar(100) NOT NULL,     
+nome varchar(100) NOT NULL);
+
+CREATE TABLE admin_(
+id int PRIMARY KEY AUTO_INCREMENT NOT NULL,
+email varchar(100) NOT NULL,
+senha varchar(100) NOT NULL,
+nome varchar(100) NOT NULL);  
+
+CREATE TABLE video_(
+id int PRIMARY KEY AUTO_INCREMENT NOT NULL,
+titulo varchar(100) NOT NULL,
+genero varchar(100) NOT NULL,
+descriçao varchar(200) NOT NULL,
+id_admin int,
+FOREIGN KEY (id_admin) REFERENCES admin_(id));
+
+CREATE TABLE lista_(
+    id  int PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    id_usuario int,
+    FOREIGN KEY(id_usuario) REFERENCES usuario_(id),
+    id_video int,
+    FOREIGN KEY(id_video) REFERENCES video_(id));
+    
+CREATE TABLE serie_(
+    id int PRIMARY KEY AUTO_INCREMENT NOT NULL,
+	titulo varchar(100) NOT NULL,
+    descricao varchar(200) NOT NULL,
+    Id_video int,
+    FOREIGN KEY(id_video) REFERENCES video_(id));
