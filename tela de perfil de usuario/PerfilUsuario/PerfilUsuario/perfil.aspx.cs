@@ -17,7 +17,7 @@ namespace PerfilUsuario
             connection = new MySqlConnection("Server=127.0.0.1;User ID=root;Password=;Database=devplus");
 
             connection.Open();
-            var comando = new MySqlCommand($"SELECT `id`, `email`, `senha`, `nome` FROM `usuario_` WHERE email='caiqueandrada.85@gmail.com'", connection);
+            var comando = new MySqlCommand($"SELECT `id`, `email`, `senha`, `nome` FROM `usuario_` WHERE id='{Session["id_usuario"].ToString()}'", connection);
             var reader = comando.ExecuteReader();
             if (reader.Read())
             {
@@ -45,12 +45,25 @@ namespace PerfilUsuario
 
         protected void btnAtualizarSenha_Click(object sender, EventArgs e)
         {
-
+            var id = Session["id_usuario"].ToString();
+            connection.Open();
+            var comando = new MySqlCommand($@"UPDATE usuario_ SET nome = '{txtAlteraNomeUsuario.Text}',
+                            email ='{txtAlteraEmailUsuario.Text}'
+                           WHERE id = " + id, connection);
+            comando.ExecuteNonQuery();
+            connection.Close();
         }
+    }
 
         protected void btnAtualizarCadastro_Click(object sender, EventArgs e)
         {
-
+            var id = Session["id_usuario"].ToString();
+            connection.Open();
+            var comando = new MySqlCommand($@"UPDATE usuario_ SET nome = '{txtAlteraNomeUsuario.Text}',
+                            email ='{txtAlteraEmailUsuario.Text}'
+                           WHERE id = " + id, connection);
+            comando.ExecuteNonQuery();
+            connection.Close();
         }
 
 
