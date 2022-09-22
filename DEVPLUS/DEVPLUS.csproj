@@ -128,13 +128,50 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assistir mais tarde\Assistir mais tarde.aspx" />
+    <Content Include="Assistir mais tarde\chamada-telefonica.png" />
+    <Content Include="Assistir mais tarde\definicoes.png" />
+    <Content Include="Assistir mais tarde\DevLogo.png" />
+    <Content Include="Assistir mais tarde\do-utilizador.png" />
+    <Content Include="Assistir mais tarde\scriptt.js" />
+    <Content Include="Assistir mais tarde\search-free-icon-font %281%29.png" />
+    <Content Include="Assistir mais tarde\Style.css" />
     <Content Include="CADASTRO\3628732_612.jpg" />
     <Content Include="CADASTRO\CADASTRO.aspx" />
     <Content Include="CADASTRO\DevLogo.png" />
     <Content Include="CADASTRO\Stylecad.css" />
     <Content Include="CATEGORIAS\Automacao\Automacao.aspx" />
+    <Content Include="CATEGORIAS\Automacao\chamada-telefonica.png" />
+    <Content Include="CATEGORIAS\Automacao\definicoes.png" />
+    <Content Include="CATEGORIAS\Automacao\DevLogo.png" />
+    <Content Include="CATEGORIAS\Automacao\do-utilizador.png" />
     <Content Include="CATEGORIAS\Automacao\scriptt.js" />
+    <Content Include="CATEGORIAS\Automacao\search-free-icon-font %281%29.png" />
     <Content Include="CATEGORIAS\Automacao\Style.css" />
+    <Content Include="CATEGORIAS\Back-end\Back-End.aspx" />
+    <Content Include="CATEGORIAS\Back-end\chamada-telefonica.png" />
+    <Content Include="CATEGORIAS\Back-end\definicoes.png" />
+    <Content Include="CATEGORIAS\Back-end\DevLogo.png" />
+    <Content Include="CATEGORIAS\Back-end\do-utilizador.png" />
+    <Content Include="CATEGORIAS\Back-end\scriptt.js" />
+    <Content Include="CATEGORIAS\Back-end\search-free-icon-font %281%29.png" />
+    <Content Include="CATEGORIAS\Back-end\Style.css" />
+    <Content Include="CATEGORIAS\Banco-de-dados\Banco de Dados.aspx" />
+    <Content Include="CATEGORIAS\Banco-de-dados\chamada-telefonica.png" />
+    <Content Include="CATEGORIAS\Banco-de-dados\definicoes.png" />
+    <Content Include="CATEGORIAS\Banco-de-dados\DevLogo.png" />
+    <Content Include="CATEGORIAS\Banco-de-dados\do-utilizador.png" />
+    <Content Include="CATEGORIAS\Banco-de-dados\scriptt.js" />
+    <Content Include="CATEGORIAS\Banco-de-dados\search-free-icon-font %281%29.png" />
+    <Content Include="CATEGORIAS\Banco-de-dados\Style.css" />
+    <Content Include="CATEGORIAS\Front-end\chamada-telefonica.png" />
+    <Content Include="CATEGORIAS\Front-end\definicoes.png" />
+    <Content Include="CATEGORIAS\Front-end\DevLogo.png" />
+    <Content Include="CATEGORIAS\Front-end\do-utilizador.png" />
+    <Content Include="CATEGORIAS\Front-end\Front-end.aspx" />
+    <Content Include="CATEGORIAS\Front-end\scriptt.js" />
+    <Content Include="CATEGORIAS\Front-end\search-free-icon-font %281%29.png" />
+    <Content Include="CATEGORIAS\Front-end\Style.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -203,6 +240,28 @@
     <Content Include="Serie\transferir.jpg" />
     <Content Include="Site.Master" />
     <Content Include="style.css" />
+    <Content Include="Tela Contato\caique.jpg" />
+    <Content Include="Tela Contato\chamada-telefonica.png" />
+    <Content Include="Tela Contato\circle-phone.png" />
+    <Content Include="Tela Contato\definicoes.png" />
+    <Content Include="Tela Contato\DevLogo.png" />
+    <Content Include="Tela Contato\do-utilizador.png" />
+    <Content Include="Tela Contato\envelope.png" />
+    <Content Include="Tela Contato\estilo.css" />
+    <Content Include="Tela Contato\facebook.png" />
+    <Content Include="Tela Contato\fessor.jpeg" />
+    <Content Include="Tela Contato\instagram.png" />
+    <Content Include="Tela Contato\joao.jpg" />
+    <Content Include="Tela Contato\kevin.jpg" />
+    <Content Include="Tela Contato\luigi.jpg" />
+    <Content Include="Tela Contato\pedro.jpg" />
+    <Content Include="Tela Contato\sabrina.jpg" />
+    <Content Include="Tela Contato\search-free-icon-font %281%29.png" />
+    <Content Include="Tela Contato\Tela de Contato.aspx" />
+    <Content Include="Tela de Exibição de Serie\arrow-left-free-icon-font %281%29.png" />
+    <Content Include="Tela de Exibição de Serie\DevLogo.png" />
+    <Content Include="Tela de Exibição de Serie\stylexib.css" />
+    <Content Include="Tela de Exibição de Serie\Tela de Exibição de Serie.aspx" />
     <Content Include="Tela de Exibição\arrow-left-free-icon-font %281%29.png" />
     <Content Include="Tela de Exibição\DevLogo.png" />
     <Content Include="Tela de Exibição\stylexib.css" />
@@ -236,6 +295,13 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Assistir mais tarde\Assistir mais tarde.aspx.cs">
+      <DependentUpon>Assistir mais tarde.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assistir mais tarde\Assistir mais tarde.aspx.designer.cs">
+      <DependentUpon>Assistir mais tarde.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CADASTRO\CADASTRO.aspx.cs">
       <DependentUpon>CADASTRO.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -249,6 +315,27 @@
     </Compile>
     <Compile Include="CATEGORIAS\Automacao\Automacao.aspx.designer.cs">
       <DependentUpon>Automacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CATEGORIAS\Back-end\Back-End.aspx.cs">
+      <DependentUpon>Back-End.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CATEGORIAS\Back-end\Back-End.aspx.designer.cs">
+      <DependentUpon>Back-End.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CATEGORIAS\Banco-de-dados\Banco de Dados.aspx.cs">
+      <DependentUpon>Banco de Dados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CATEGORIAS\Banco-de-dados\Banco de Dados.aspx.designer.cs">
+      <DependentUpon>Banco de Dados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CATEGORIAS\Front-end\Front-end.aspx.cs">
+      <DependentUpon>Front-end.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CATEGORIAS\Front-end\Front-end.aspx.designer.cs">
+      <DependentUpon>Front-end.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -296,6 +383,20 @@
     <Compile Include="Site2.Master.designer.cs">
       <DependentUpon>Site2.Master</DependentUpon>
     </Compile>
+    <Compile Include="Tela Contato\Tela de Contato.aspx.cs">
+      <DependentUpon>Tela de Contato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tela Contato\Tela de Contato.aspx.designer.cs">
+      <DependentUpon>Tela de Contato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tela de Exibição de Serie\Tela de Exibição de Serie.aspx.cs">
+      <DependentUpon>Tela de Exibição de Serie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tela de Exibição de Serie\Tela de Exibição de Serie.aspx.designer.cs">
+      <DependentUpon>Tela de Exibição de Serie.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Tela de Exibição\Tela de Exibição.aspx.cs">
       <DependentUpon>Tela de Exibição.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -333,10 +434,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
-    <Folder Include="CATEGORIAS\Back-end\" />
-    <Folder Include="CATEGORIAS\Banco-de-dados\" />
-    <Folder Include="CATEGORIAS\Front-end\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

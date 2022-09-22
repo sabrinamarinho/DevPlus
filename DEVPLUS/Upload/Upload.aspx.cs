@@ -630,5 +630,10 @@ namespace DEVPLUS.Upload
 
 
         }
+
+        protected void Unnamed_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("../LOGIN/Login.aspx");
+        }
     }
 }

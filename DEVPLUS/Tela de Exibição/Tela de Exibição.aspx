@@ -27,13 +27,8 @@
 
     <div class="container" style="position: absolute; margin-top: 18%;left: 19%;">
         <div class="center">
-          <button class="btn">
-            <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-              <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-              <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-            </svg>
-            <span>ASSISTIR MAIS TARDE</span>
-          </button>
+          <asp:Button runat="server" class="btn"  Text="ASSISTIR MAIS TARDE" OnClick="Unnamed_Click">
+          </asp:Button>
         </div>
       </div>
     </form>

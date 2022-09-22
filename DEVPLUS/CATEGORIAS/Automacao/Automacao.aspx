@@ -31,7 +31,7 @@
     <form id="form1" runat="server">
         <nav class="navbar navbar-expand-sm navbar-white " style="background-color: transparent;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="javascript:void(0)">
+                <a class="navbar-brand" href="../../Tela Interna/Tela Interna.aspx">
                     <img src="DevLogo.png" style="width: 120px; margin-top: -8%;" alt="" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -39,11 +39,11 @@
                 <div class="collapse navbar-collapse" id="mynavbar">
                     <ul class="navbar-nav me-auto" style="margin-left: 5%; margin-top: 2%;">
                         <li class="nav-item">
-                            <a class="nav-link me-5" style="color: white;" href="javascript:void(0)">Video</a>
+                            <a class="nav-link me-5" style="color: white;" href="../../Video/Video.aspx">Video</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link me-5" style="color: white;" href="javascript:void(0)">Serie</a>
+                            <a class="nav-link me-5" style="color: white;" href="../../Serie/Serie.aspx">Serie</a>
                         </li>
 
                         <li class="nav-item">
@@ -51,16 +51,17 @@
                         </li>
 
                     </ul>
-                    <div class="dropdown" style="margin-top: 3%;">
-                        <button type="button" class="cate" data-bs-toggle="dropdown">
-                            Categorias ▼
-                        </button>
-                        <ul class="dropdown-menu" style="background-color: #5f1eaa;">
-                            <li><a class="dropdown-item" href="#" style="color: coral;">Link 1</a></li>
-                            <li><a class="dropdown-item" href="#" style="color: coral;">Link 2</a></li>
-                            <li><a class="dropdown-item" href="#" style="color: coral;">Link 3</a></li>
-                        </ul>
-                    </div>
+                     <div class="dropdown">
+                <asp:button runat="server" ID="drop_genero" type="button" class="cate" data-bs-toggle="dropdown" Text=" Categorias ▼">
+               
+                </asp:button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../CATEGORIAS/Banco-de-dados/Banco de Dados.aspx">Banco-de-Dados</a></li>
+                  <li><a class="dropdown-item" href="../CATEGORIAS/Front-end/Front-end.aspx">Fron-End</a></li>
+                  <li><a class="dropdown-item" href="../CATEGORIAS/Automacao/Automacao.aspx">Automação</a></li>
+                  <li><a class="dropdown-item" href="../CATEGORIAS/Back-end/Back-End.aspx">Back-End</a></li>
+                </ul>
+                </div>
 
 
                     <div class="ex-busca cinco">
@@ -78,16 +79,14 @@
                         <label class="menu-open-button" for="menu-open">
                             <span class="hamburger hamburger-1"></span>
                             <span class="hamburger hamburger-2"></span>
-                            <span class="hamburger hamburger-3"></span>
+                            
                         </label>
 
-                        <a href="#" class="menu-item">
-                            <img src="definicoes.png" style="margin-top: -40%;" />
-                        </a>
+                       
                         <a href="#" class="menu-item">
                             <img src="do-utilizador.png" style="margin-top: -40%;" />
                         </a>
-                        <a href="#" class="menu-item">
+                        <a href="../../Tela Contato/Tela de Contato.aspx" class="menu-item">
                             <img src="chamada-telefonica.png" style="margin-top: -40%;" />
                         </a>
                     </nav>
@@ -224,25 +223,14 @@
       </filter>
     </defs>
 </svg>
-          </div>
-        </div>
-      </nav>
+      
         <h2 style="position:absolute;top:100%;left:46%;color: white;">SERIES</h2>
-      <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }' style="height: 600px;margin-top:40%;" id="Carousel" runat="server">
-         
-                            
-                    
-       
-        <div class="carousel-cell" style="height: 600px;">
-          <h1 class="text-center" style="color: white; z-index: 3;">Serie</h1><br>
-          <img class="w3-image" src="https://smash-images.photobox.com/original/bca8e5fa7862a2cfaefc300c5b572e7a6dc6f3f3_Standard-Prints-lifestyle-3_1-2600.jpg">
-        </div>
-        <div class="carousel-cell" style="height: 600px;">
-          <h1 class="text-center" style="color: white; z-index: 3;">Serie</h1><br>
-          <img class="w3-image" src="https://smash-images.photobox.com/original/a422aed1a721e933961b19ea9e47e07fc71e0699_Acrylic-Prints-lifestyle-3_1-2600.jpg">
-        </div>
+      
+      <div class="container-fluid text-center" style="margin-top:20%">
+        <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }' style="width:100%;margin-left:0.7%" id="Carousel" runat="server">
+             
       </div>
-
+          </div>
 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </form>

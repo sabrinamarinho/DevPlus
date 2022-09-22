@@ -76,7 +76,7 @@ namespace DEVPLUS.CATEGORIAS.Automacao
             while (leitor.Read())
             {
                 Carousel.InnerHtml += $@" 
-                <div class='carousel - cell' style='height: 600px;'>
+                <div class='carousel-cell' style='height: 600px;width:100% '>
                     <h1 class='text-center' style='color: white; z-index: 3;'>{leitor.GetString("titulo")}</h1><br>
                     <a href = '../../Tela de Exibição/Tela de Exibição.aspx?titulo={leitor.GetString("titulo")}' ><img class='w3-image' style='height:600px; ' src='../../Upload/serie/{leitor.GetString("genero")}/{leitor.GetString("titulo")}/{leitor.GetString("titulo")}.jpg' /></a>
                    </div>";

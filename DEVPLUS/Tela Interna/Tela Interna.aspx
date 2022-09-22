@@ -7,12 +7,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="stylesheet" href="sty.scss">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
 <!-- CSS -->
-<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"/>
 
 <!-- JavaScript -->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
@@ -24,7 +24,7 @@
     <form id="form1" runat="server">
         <nav class="navbar navbar-expand-sm navbar-white " style="background-color: transparent;"> 
         <div class="container-fluid">
-          <a class="navbar-brand" href="javascript:void(0)"><img src="DevLogo.png" style="width: 120px; " alt=""></a>
+          <a class="navbar-brand" href="Tela Interna.aspx"><img src="DevLogo.png" style="width: 120px; " alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" >
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -48,10 +48,10 @@
                
                 </asp:button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">banco-de-dados</a></li>
-                  <li><a class="dropdown-item" href="#">fron-end</a></li>
-                  <li><a class="dropdown-item" href="#">automacao</a></li>
-                  <li><a class="dropdown-item" href="#">back-end</a></li>
+                  <li><a class="dropdown-item" href="../CATEGORIAS/Banco-de-dados/Banco de Dados.aspx">Banco-de-Dados</a></li>
+                  <li><a class="dropdown-item" href="../CATEGORIAS/Front-end/Front-end.aspx">Fron-End</a></li>
+                  <li><a class="dropdown-item" href="../CATEGORIAS/Automacao/Automacao.aspx">Automação</a></li>
+                  <li><a class="dropdown-item" href="../CATEGORIAS/Back-end/Back-End.aspx">Back-End</a></li>
                 </ul>
                 </div>
             </ul>
@@ -72,14 +72,11 @@
   <label class="menu-open-button" for="menu-open">
     <span class="hamburger hamburger-1"></span>
     <span class="hamburger hamburger-2"></span>
-    <span class="hamburger hamburger-3"></span>
-  </label>
   
-   
-  <a href="#" class="menu-item"><img src="definicoes.png" style="margin-top:-40%;"> </a>
+  </label>   
+
   <a href="#" class="menu-item"> <img src="do-utilizador.png" style="margin-top:-40%;"></i> </a>
-  <a href="#" class="menu-item"><img src="chamada-telefonica.png" style="margin-top:-40%;"> </i> </a>
- 
+  <a href="../Tela Contato/Tela de Contato.aspx" class="menu-item"><img src="chamada-telefonica.png" style="margin-top:-40%;"> </i> </a>
 
 </nav>
 
@@ -107,17 +104,12 @@
           </div>
         </div>
       </nav>
-      <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }' style="height: 600px;" id="Carousel" runat="server">
+        <div class="container-fluid text-center">
+      <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }' style="height: 600px; width:100%" id="Carousel" runat="server">
        
-        <div class="carousel-cell" style="height: 600px;">
-          <h1 class="text-center" style="color: white; z-index: 3;">Serie</h1><br>
-          <img class="w3-image" src="https://smash-images.photobox.com/original/bca8e5fa7862a2cfaefc300c5b572e7a6dc6f3f3_Standard-Prints-lifestyle-3_1-2600.jpg">
-        </div>
-        <div class="carousel-cell" style="height: 600px;">
-          <h1 class="text-center" style="color: white; z-index: 3;">Serie</h1><br>
-          <img class="w3-image" src="https://smash-images.photobox.com/original/a422aed1a721e933961b19ea9e47e07fc71e0699_Acrylic-Prints-lifestyle-3_1-2600.jpg">
-        </div>
+        
       </div>
+    </div>
     </form>
 </body>
 </html>

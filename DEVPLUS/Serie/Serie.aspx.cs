@@ -51,7 +51,7 @@ namespace DEVPLUS.Serie
 								</div>
 								<div class=""thumb-content"">
 									<h4 >{reader.GetString("titulo")}</h4>	
-									<a href = ""../Tela de Exibição/Tela de Exibição.aspx?titulo={reader.GetString("titulo")}"" class=""btn btn-primary"">ASSISTIR</a>
+									<a href = ""../Tela de Exibição de Serie/Tela de Exibição de Serie.aspx?titulo={reader.GetString("titulo")}"" class=""btn btn-primary"">ASSISTIR</a>
 								</div>						
 							</div>
 						</div>";

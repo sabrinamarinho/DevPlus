@@ -18,6 +18,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+       <asp:Button  CssClass="btnOk"  OnClick="Unnamed_Click" Style="height: 50px; width: 100px; padding:0px 0px 0px 0px; margin-left:1%; font-size:20pt" Text="<" runat="server" />
         <div>
             <h1 class="text-center pb-5">Upload de Vídeos</h1>
             <div class="container">
@@ -38,11 +39,11 @@
                     <div class="col-6 pt-5">
 
                         <div class="col-6" style="margin-left: 10%">
-                            <h3 class="pb-1 pt-3">Gênero:</h3>
+                            <h3 class="pb-1 pt-3">Episódios:</h3>
 
 
                             <select runat="server" id="listGen" class="listGen form-select">
-                                <option>Front-End</option>
+                                <option>Episódio 1</option>
                                 <option>Back-End</option>
                                 <option>Automação Python</option>
                                 <option>Banco De Dados</option>

@@ -11,6 +11,7 @@ namespace DEVPLUS.Tela_de_Exibição
     public partial class Tela_de_Exibição : System.Web.UI.Page
     {
         private MySqlConnection connection;
+        public static int id;
         protected void Page_Load(object sender, EventArgs e)
         {
             connection = new MySqlConnection(SiteMaster.ConnectionString);
@@ -27,18 +28,31 @@ namespace DEVPLUS.Tela_de_Exibição
                     }
                     else
                     {
-                        var comando = new MySqlCommand($" SELECT `titulo`,`descriçao`,genero FROM `video_` WHERE `titulo`='{titulo}'", connection);
+                        var comando = new MySqlCommand($" SELECT `titulo`,`descriçao`,genero,id FROM `video_` WHERE `titulo`='{titulo}'", connection);
                         var reader = comando.ExecuteReader();
                         if (reader.Read())
                         {
                             titulo_v.InnerText = reader.GetString("titulo");
                             descricao_v.InnerText = reader.GetString("descriçao");
                             vidin.Src = $@"../Upload/videos/{reader.GetString("genero")}/{reader.GetString("titulo")}.mp4";
-                        }
 
+                            id = reader.GetInt32("id");
+                        }
+                       
                     }
                 }
             }
+        }
+
+        protected void Unnamed_Click(object sender, EventArgs e)
+        {
+            connection.Open();
+
+            var commando = new MySqlCommand($"INSERT INTO `lista_`(`id`, `id_usuario`, `id_video`) VALUES (NULL,@id_usuario,@id_video)", connection);
+            commando.Parameters.Add(new MySqlParameter("titulo", txtTitulo.Value));
+            commando.Parameters.Add(new MySqlParameter("id_video", id));
+            commando.ExecuteNonQuery();
+            connection.Close();
         }
     }
 }
