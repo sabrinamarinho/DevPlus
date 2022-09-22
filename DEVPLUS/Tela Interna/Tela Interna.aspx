@@ -59,12 +59,14 @@
             
 
             <div class="ex-busca cinco">
-              <form action=" " method="post" onsubmit="return false">
+              <form action="" method="post" onsubmit="return false">
                  <div class="busquinha-exemplo w100" style="position:absolute;left:1090px;top:40px;">
-                  <input class="inp1" type="search" id="busca5" name="q">
-                  <button class="btn1" type="submit" id="btn-busca"><img src="search-free-icon-font (1).png"/></button>
+                  <asp:TextBox runat="server" class="inp1" type="search" id="txtbusca" name="q" OnTextChanged="txtbusca_TextChanged" AutoPostBack="true"></asp:TextBox>
+                  <button runat="server" class="btn1" type="submit" ID="btn"><img src="search-free-icon-font (1).png"/></button> 
+                 
                  </div>   
               </form>
+                
               </div>
            
 <nav class="menu">

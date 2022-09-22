@@ -31,6 +31,24 @@ namespace DEVPLUS.CATEGORIAS.Automacao {
         protected global::System.Web.UI.WebControls.Button drop_genero;
         
         /// <summary>
+        /// Controle txtbusca.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtbusca;
+        
+        /// <summary>
+        /// Controle btn.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlButton btn;
+        
+        /// <summary>
         /// Controle lista_videos.
         /// </summary>
         /// <remarks>
