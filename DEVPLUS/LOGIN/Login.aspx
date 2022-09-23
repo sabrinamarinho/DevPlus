@@ -38,6 +38,8 @@
        <br>
        <asp:TextBox ID="txtpassword" runat="server" TextMode="password" name="password" CssClass="password" placeholder="senha" value=""></asp:TextBox>
        <br>
+        <label runat="server" style="color:red" class="label1" id="valida"></label>
+       <br>
        <asp:Button ID="btngo" runat="server" CssClass="btnGo" text="VAMOS LÁ" OnClick="btngo_Click" ></asp:Button>
     </div>
     </div>

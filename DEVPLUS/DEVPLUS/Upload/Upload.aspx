@@ -46,14 +46,8 @@
                         
                     </form>
                     
-                 
-                 <div id="serieend" runat="server" >
-                 
-                     </div>
-            </div>
-            <div class="col-6 pt-5"> 
-               
-            <div class="col-6" style="margin-left:10%">
+                 <div class="row">
+            <div class="col-6">
                     <h3 class="pb-1 pt-3">Gênero:</h3>
                
                 
@@ -64,7 +58,7 @@
                         <option>Banco De Dados</option>
                       </select>
                  </div>
-                 <div class="col-6" style="margin-left:10%">
+                 <div class="col-6">
                 <h3 class="pb-1 pt-3">Tipo:</h3>
                
                 
@@ -75,54 +69,45 @@
                       </select>
 
                      <br />
-                       <asp:Button  id = "Ok" CssClass="btnOk" style=" height: 50px; width:200px; " Text = "Ok" OnClick="Ok_Click" runat = "server"/>
+                       <asp:Button  id = "Ok" CssClass="btnOk" style=" height: 50px; width:200px" Text = "Ok" OnClick="Ok_Click" runat = "server"/>
                  
                       </div>
-                    
+                      </div>
+                 <div id="serieend" runat="server" >
+                 <h4 class="pt-5">Episodio 5:</h4>
+
+                 <asp:FileUpload CssClass="btnOk" id = "FileEp5" runat ="server"/>  
+    <asp:Button  id = "ep5" CssClass="btnConcluir" style=" height: 50px;" Text = "Fazer upload do episódio" OnClick="ep5_Click" runat = "server"/>
+                 <h4 class="pt-5">Episodio 6:</h4>
+
+                 <asp:FileUpload CssClass="btnOk" id = "FileEp6" runat ="server"/>  
+    <asp:Button  id = "ep6" CssClass="btnConcluir" style=" height: 50px;" Text = "Fazer upload do episódio" OnClick="ep6_Click" runat = "server"/>
+                     </div>
+            </div>
+            <div class="col-6 pt-5"> 
 
                 <div id="video" runat="server" >
                    <asp:FileUpload CssClass="btnConcluir" id = "FileUpLoad1" runat ="server"/>  
     <asp:Button  id = "BtnUpload" CssClass="btnConcluir" style=" height: 50px;" Text = "Fazer upload do arquivo" OnClick="BtnUpload_Click" runat = "server"/>
                 </div>
-        </div>
 
 
-        <div class="container-sm " style="background-color: rgb(36, 36, 36); border-radius: 20px;" id="serie" runat="server" >
-          <asp:Button Text="X" runat="server" ID="btnBack" OnClick="btnBack_Click" style=" margin-left: 96.5%;
-    margin-top: 1%;
-    color: white;
-    background-color: rgb(36, 36, 36);
-    border: none;
-    font-size: 20pt;" />
-             <div class="row">
-            <div class="col-6">
-                 <h4 class="pt-5">Imagem para Capa:</h4>
-                 <asp:FileUpload CssClass="btnConcluir" id = "FileImg" runat ="server"/>  
-            <h4 class="pt-5">Episodio 1:</h4>
+                <div runat="server" id="serie">
+                  <h4 class="pt-5">Episodio 1:</h4>
                  <asp:FileUpload CssClass="btnConcluir" id = "FileEp1" runat ="server"/>  
-   
+    <asp:Button  id = "ep1" CssClass="btnConcluir" style=" height: 50px;" Text = "Fazer upload do episódio" OnClick="ep1_Click" runat = "server"/>
                  <h4 class="pt-5">Episodio 2:</h4>
                  <asp:FileUpload CssClass="btnConcluir" id = "FileEp2" runat ="server"/>  
-
-               
-                </div>
-                 <div class="col-6">
-                       <h4 class="pt-5">Episodio 3:</h4>
+    <asp:Button  id = "ep2" CssClass="btnConcluir" style=" height: 50px;" Text = "Fazer upload do episódio" OnClick="ep2_Click" runat = "server"/>
+                 <h4 class="pt-5">Episodio 3:</h4>
                  <asp:FileUpload CssClass="btnConcluir" id = "FileEp3" runat ="server"/>  
-   
+    <asp:Button  id = "ep3" CssClass="btnConcluir" style=" height: 50px;" Text = "Fazer upload do episódio" OnClick="ep3_Click" runat = "server"/>
                 <h4 class="pt-5">Episodio 4:</h4>
                  <asp:FileUpload CssClass="btnConcluir" id = "FileEp4" runat ="server"/>  
-    
-            <h4 class="pt-5">Episodio 5:</h4>
-
-                 <asp:FileUpload CssClass="btnConcluir" id = "FileEp5" runat ="server"/>  
-    
-                  
-    <asp:Button  id = "UpSerie" CssClass="btnConcluir" style=" height: 50px; margin-bottom:5%;margin-top:5%" Text = "Fazer upload dos episódios" OnClick="UpSerie_Click" runat = "server"/>
+    <asp:Button  id = "ep4" CssClass="btnConcluir" style=" height: 50px;" Text = "Fazer upload do episódio" OnClick="ep4_Click" runat = "server"/>
                 </div>
-                 </div>
-            </div>
 
+            </div>
         </div>
     </div>
     
