@@ -22,6 +22,15 @@ namespace DEVPLUS.Perfil {
         protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
         
         /// <summary>
+        /// Controle drop_genero.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button drop_genero;
+        
+        /// <summary>
         /// Controle email22.
         /// </summary>
         /// <remarks>

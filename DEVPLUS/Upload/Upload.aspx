@@ -39,11 +39,11 @@
                     <div class="col-6 pt-5">
 
                         <div class="col-6" style="margin-left: 10%">
-                            <h3 class="pb-1 pt-3">Episódios:</h3>
+                            <h3 class="pb-1 pt-3">Gênero:</h3>
 
 
                             <select runat="server" id="listGen" class="listGen form-select">
-                                <option>Episódio 1</option>
+                                <option>Front-End</option>
                                 <option>Back-End</option>
                                 <option>Automação Python</option>
                                 <option>Banco De Dados</option>

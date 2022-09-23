@@ -25,7 +25,7 @@
     <form runat="server" id="Form1">
         <nav class="navbar navbar-expand-sm navbar-white " style="background-color: transparent;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="javascript:void(0)">
+                <a class="navbar-brand" href="../Tela Interna/Tela Interna.aspx">
                     <img src="DevLogo.png" style="width: 120px;" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -45,27 +45,24 @@
                         </li>
 
 
-                        <div class="dropdown">
-                            <button type="button" class="cate" data-bs-toggle="dropdown">
-                                Categorias ▼
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Link 1</a></li>
-                                <li><a class="dropdown-item" href="#">Link 2</a></li>
-                                <li><a class="dropdown-item" href="#">Link 3</a></li>
-                            </ul>
-                        </div>
+                       <li>
+                    <div class="dropdown">
+                <asp:button runat="server" ID="drop_genero" type="button" class="cate" data-bs-toggle="dropdown" Text=" Categorias ▼">
+               
+                </asp:button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../CATEGORIAS/Banco-de-dados/Banco de Dados.aspx">Banco-de-Dados</a></li>
+                  <li><a class="dropdown-item" href="../CATEGORIAS/Front-end/Front-end.aspx">Fron-End</a></li>
+                  <li><a class="dropdown-item" href="../CATEGORIAS/Automacao/Automacao.aspx">Automação</a></li>
+                  <li><a class="dropdown-item" href="../CATEGORIAS/Back-end/Back-End.aspx">Back-End</a></li>
+                </ul>
+                </div>
+                </li>
                     </ul>
 
 
 
-                    <div class="ex-busca cinco">
-                            <div class="busquinha-exemplo w100" style="position: absolute; left: 1090px; top: 40px;">
-                                <input class="inp1" type="search" id="busca5" name="q">
-                                <button class="btn1" type="submit" id="btn-busca">
-                                    <img src="search-free-icon-font (1).png" /></button>
-                            </div>
-                    </div>
+                  
 
                     <nav class="menu">
                         <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
