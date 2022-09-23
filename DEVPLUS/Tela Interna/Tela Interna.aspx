@@ -43,8 +43,8 @@
                 <a class="nav-link me-5"  style="color:white;" href="javascript:void(0)">Minha Lista</a>
               </li>
 
-
-              <div class="dropdown">
+                <li>
+                    <div class="dropdown">
                 <asp:button runat="server" ID="drop_genero" type="button" class="cate" data-bs-toggle="dropdown" Text=" Categorias ▼">
                
                 </asp:button>
@@ -55,12 +55,14 @@
                   <li><a class="dropdown-item" href="../CATEGORIAS/Back-end/Back-End.aspx">Back-End</a></li>
                 </ul>
                 </div>
+                </li>
+              
             </ul>
            
             
 
             <div class="ex-busca cinco">
-              <form action=" " method="post" onsubmit="return false">
+              <form action="" method="post" onsubmit="return false">
                  <div class="busquinha-exemplo w100" style="position:absolute;left:1090px;top:40px;">
                   <input class="inp1" type="search" id="busca5" name="q">
                   <button class="btn1" type="submit" id="btn-busca"><img src="search-free-icon-font (1).png"/></button>

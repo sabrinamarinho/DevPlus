@@ -51,7 +51,9 @@
                         </li>
 
                     </ul>
-                      <div class="dropdown">
+
+                    <li>
+                        <div class="dropdown">
                 <asp:button runat="server" ID="drop_genero" type="button" class="cate" data-bs-toggle="dropdown" Text=" Categorias ▼">
                
                 </asp:button>
@@ -62,6 +64,8 @@
                   <li><a class="dropdown-item" href="../CATEGORIAS/Back-end/Back-End.aspx">Back-End</a></li>
                 </ul>
                 </div>
+                    </li>
+                      
 
 
                     <div class="ex-busca cinco">

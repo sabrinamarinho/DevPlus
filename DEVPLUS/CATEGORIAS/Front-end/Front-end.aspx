@@ -56,8 +56,8 @@
                
                 </asp:button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="../CATEGORIAS/Banco-de-dados/Banco de Dados.aspx">Banco-de-Dados</a></li>
-                  <li><a class="dropdown-item" href="../CATEGORIAS/Front-end/Front-end.aspx">Fron-End</a></li>
+                  <li><a class="dropdown-item" href="../Banco-de-dados/Banco de Dados.aspx">Banco-de-Dados</a></li>
+                  <li><a class="dropdown-item" href="Front-end.aspx">Fron-End</a></li>
                   <li><a class="dropdown-item" href="../CATEGORIAS/Automacao/Automacao.aspx">Automação</a></li>
                   <li><a class="dropdown-item" href="../CATEGORIAS/Back-end/Back-End.aspx">Back-End</a></li>
                 </ul>

@@ -21,11 +21,11 @@ namespace DEVPLUS.Perfil
 
 
                 connection.Open();
-                var comando = new MySqlCommand($"SELECT `id`, `email`, `senha`, @nome FROM `usuario_` WHERE email='{email}'", connection);
+                var comando = new MySqlCommand($"SELECT `id`, `email`, `senha`, nome FROM `usuario_` WHERE email='{email}'", connection);
                 var reader = comando.ExecuteReader();
                 if (reader.Read())
                 {
-                    txtNome.Text = ToString("nome");
+                    txtNome.Text = reader.GetString("nome");
                     txtEmail.Text = email;
 
 

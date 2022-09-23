@@ -44,26 +44,14 @@ namespace DEVPLUS.Tela_de_Exibição
                     }
                 }
                 connection.Close();
-                connection.Open();
+              
 
-                email = Request.QueryString["email"].ToString();
-                if (Request.QueryString["email"].ToString() == null)
-                {
-
-                }
-                else
-                {
-                   var comando2 = new MySqlCommand($" SELECT `id` FROM `usuario_` WHERE `email`='{email}'", connection);
-                     var reader2 = comando2.ExecuteReader();
-                    if (reader2.Read())
-                    {
-                        id_usu = reader2.GetInt32("id");
-                    }
-                }
+              
+             }
                
 
-            }
-            connection.Close();
+           
+           
         }
         
         protected void Unnamed_Click(object sender, EventArgs e)
