@@ -32,13 +32,15 @@
     <div class="container-lg text-center pt-1">
         <label class="label1">EMAIL OU NOME:</label>
         <br>
-       <asp:TextBox runat="server" TextMode="email" name="emailorname" CssClass="txtEmail" placeholder="Insira seu email ou nome" value=""></asp:TextBox>
+       <asp:TextBox ID="txtemail" runat="server" TextMode="email" name="emailorname" CssClass="txtEmail" placeholder="Insira seu email ou nome" value=""></asp:TextBox>
        <br>
        <label class="label">SENHA:</label>
        <br>
-       <asp:TextBox runat="server" TextMode="password" name="password" CssClass="password" placeholder="senha" value=""></asp:TextBox>
+       <asp:TextBox ID="txtpassword" runat="server" TextMode="password" name="password" CssClass="password" placeholder="senha" value=""></asp:TextBox>
        <br>
-       <asp:Button runat="server" CssClass="btnGo" text="VAMOS LÁ"></asp:Button >
+        <label runat="server" style="color:red" class="label1" id="valida"></label>
+       <br>
+       <asp:Button ID="btngo" runat="server" CssClass="btnGo" text="VAMOS LÁ" OnClick="btngo_Click" ></asp:Button>
     </div>
     </div>
     
