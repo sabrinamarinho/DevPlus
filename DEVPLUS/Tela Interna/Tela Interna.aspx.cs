@@ -21,7 +21,7 @@ namespace DEVPLUS.Tela_Interna
             {
                 if (Request.QueryString.Count > 0)
                 {
-                    string email = Request.QueryString["email"].ToString();
+                     email = Request.QueryString["email"].ToString();
 
 
 
@@ -88,6 +88,11 @@ namespace DEVPLUS.Tela_Interna
         protected void txtbusca_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Unnamed_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("../Perfil/Perfil.aspx?email="+email);    
         }
     }
 }

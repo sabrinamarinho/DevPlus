@@ -1,9 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Tela Interna.aspx.cs" Inherits="DEVPLUS.Tela_Interna.Tela_Interna" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"  EnableEventValidation="false" CodeBehind="Tela Interna.aspx.cs" Inherits="DEVPLUS.Tela_Interna.Tela_Interna" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -75,7 +76,7 @@
   
   </label>   
     
-  <a href="../Perfil/Perfil.aspx" class="menu-item"> <img src="do-utilizador.png" style="margin-top:-40%;"></i> </a>
+  <a  class="menu-item"> <asp:ImageButton runat="server" OnClick="Unnamed_Click" ImageUrl="do-utilizador.png"  style="margin-top:-40%;" /></i> </a>
   <a href="../Tela Contato/Tela de Contato.aspx" class="menu-item"><img src="chamada-telefonica.png" style="margin-top:-40%;"> </i> </a>
 
 </nav>

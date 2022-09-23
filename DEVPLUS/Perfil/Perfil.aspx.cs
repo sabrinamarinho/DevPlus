@@ -18,32 +18,32 @@ namespace DEVPLUS.Perfil
             if (!IsPostBack)
             {
                 email = Request.QueryString["email"].ToString();
-            }
-
-            connection.Open();
-            var comando = new MySqlCommand($"SELECT `id`, `email`, `senha`, `nome` FROM `usuario_` WHERE email='{email}'", connection);
-            var reader = comando.ExecuteReader();
-            if (reader.Read())
-            {
-                txtNome.Text = nome;
-                txtEmail.Text = email;
 
 
-            }
+                connection.Open();
+                var comando = new MySqlCommand($"SELECT `id`, `email`, `senha`, @nome FROM `usuario_` WHERE email='{email}'", connection);
+                var reader = comando.ExecuteReader();
+                if (reader.Read())
+                {
+                    txtNome.Text = ToString("nome");
+                    txtEmail.Text = email;
 
-            if (!IsPostBack)
-            {
+
+                }
+
+
                 recadsenha.Style.Value = "width: 600px;height: 440px;background-color:rgb(23, 23, 54);position: absolute;top: 330px;left: 500px;display: none;z-index: 2;border-radius: 4 % ";
                 recad.Style.Value = "width: 600px;height: 350px;background-color:rgb(23, 23, 54);position: absolute;top: 329px;left: 500px; display:none;z-index: 2;border-radius: 4%;";
-              
+
+
+                connection.Close();
+
+                if (Request.QueryString.Count > 0)
+                {
+
                 }
-            connection.Close();
 
-            if (Request.QueryString.Count > 0)
-            {
-               
             }
-
         }
 
         protected void btnAlterarSenha_Click(object sender, EventArgs e)
