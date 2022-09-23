@@ -199,6 +199,14 @@
     <Content Include="LOGIN\Logstyle.css" />
     <Content Include="Pedro Gangster.jpg" />
     <Content Include="Pedro Gangster.mp4" />
+    <Content Include="Perfil\capa-programacao.jpg" />
+    <Content Include="Perfil\chamada-telefonica.png" />
+    <Content Include="Perfil\DevLogo.png" />
+    <Content Include="Perfil\do-utilizador.png" />
+    <Content Include="Perfil\icone-perfil-usuario2.png" />
+    <Content Include="Perfil\Perfil.aspx" />
+    <Content Include="Perfil\search-free-icon-font %281%29.png" />
+    <Content Include="Perfil\style.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -353,6 +361,13 @@
     </Compile>
     <Compile Include="LOGIN\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Perfil\Perfil.aspx.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Perfil\Perfil.aspx.designer.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Serie\Serie.aspx.cs">

@@ -74,8 +74,8 @@
     <span class="hamburger hamburger-2"></span>
   
   </label>   
-
-  <a href="#" class="menu-item"> <img src="do-utilizador.png" style="margin-top:-40%;"></i> </a>
+    
+  <a href="../Perfil/Perfil.aspx" class="menu-item"> <img src="do-utilizador.png" style="margin-top:-40%;"></i> </a>
   <a href="../Tela Contato/Tela de Contato.aspx" class="menu-item"><img src="chamada-telefonica.png" style="margin-top:-40%;"> </i> </a>
 
 </nav>

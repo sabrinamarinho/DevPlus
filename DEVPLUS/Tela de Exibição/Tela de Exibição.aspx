@@ -11,7 +11,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-     <a onclick="window.location='../Tela Interna/Tela Interna.aspx'"> <img src="arrow-left-free-icon-font (1).png" alt="" style="position: absolute;top: 5%;left: 5%;width: 70px;" ></a> 
+     <asp:ImageButton runat="server"  onclick="Unnamed_Click1"  ImageUrl="~/Tela de Exibição/arrow-left-free-icon-font (1).png"></asp:ImageButton>  
     <div class="col-lg-6 text-center" style="margin-left: -5%;margin-top: 10%;">
 <h1 runat="server" class="titulo" id="titulo_v" >TITULO DO VIDEO</h1>
 <p runat="server" style="width:300px;margin-left:30%" class="descricao" id="descricao_v" >Aqui esta a descrição do video seu zé mané</p>
